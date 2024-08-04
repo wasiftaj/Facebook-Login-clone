@@ -1,20 +1,32 @@
+body {
+    background: #f2f4f7;
+}
 .facebook-image {
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
     margin-top: 30px;
+    width: 240px;
+    height: 79.26px;
+    flex-direction: row;
+    
 }
 .login-hiding {
     display: flex;
     justify-content: center;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
 }
 .login-box {
-    justify-content: center;    
-    background: #f2f4f7;
+    display: flex;
+    justify-content: center;   
+    background-color: #ffffff; 
     height: 350px;
     width: 200px;
+    box-shadow: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+
+
 }
