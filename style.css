@@ -1,32 +1,127 @@
-body {
+/*body {
     background: #f2f4f7;
 }
 .facebook-image {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-top: 30px;
     width: 240px;
     height: 79.26px;
-    flex-direction: row;
-    
+
 }
 .login-hiding {
     display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
 }
 .login-box {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     background-color: #ffffff; 
-    height: 350px;
-    width: 200px;
-    box-shadow: 5px;
+    height: 400pxpx;
+    width: 350px;
+    border-radius: 15px;
+    border: ;
+
+}*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
     border-radius: 10px;
-    max-width: 100%;
+}
 
+.login-box h1 {
+    color: #1877f2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
 
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-box button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box button.create-account {
+    background-color: #42b72a;
+    margin-top: 20px;
+}
+
+.login-box a {
+    color: #1877f2;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-links, .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-info a {
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 5px;
 }
