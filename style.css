@@ -1,32 +1,3 @@
-/*body {
-    background: #f2f4f7;
-}
-.facebook-image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
-    width: 240px;
-    height: 79.26px;
-
-}
-.login-hiding {
-    display: flex;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-}
-.login-box {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff; 
-    height: 400pxpx;
-    width: 350px;
-    border-radius: 15px;
-    border: ;
-
-}*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
